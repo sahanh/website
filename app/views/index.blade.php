@@ -6,8 +6,8 @@
     <div class="boxed">
         <!-- tagline -->
         <div id="tagline" class="animated bounceInUp">
-            <h1><span class="emphasis">The</span> PHP framework for web artisans.</h1>
-            <h2>Your life as a developer just got a whole lot easier.</h2>
+            <h1>The PHP Framework For Web Artisans.</h1>
+            <h2>PHP That Doesn't Hurt. Code Happy & Enjoy The Fresh Air.</h2>
         </div>
         <!-- /tagline -->
 

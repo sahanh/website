@@ -20,6 +20,14 @@ function markdown($value)
 }
 
 /**
+ * Let query string by used to force version...
+ */
+if (isset($_GET['v']))
+{
+	Cookie::queue('docs_versions', $_GET['v']);
+}
+
+/**
  * Set Docs Cookie If Not Set...
  */
 if ( ! Cookie::has('docs_version'))
@@ -27,7 +35,10 @@ if ( ! Cookie::has('docs_version'))
 	Cookie::queue('docs_versions', '4.1');
 }
 
-define('DOCS_VERSION', Cookie::get('docs_version', '4.1'));
+if ( ! defined('DOCS_VERSION'))
+{
+	define('DOCS_VERSION', Cookie::get('docs_version', '4.1'));
+}
 
 /**
  * Catch A 404 On Docs...
