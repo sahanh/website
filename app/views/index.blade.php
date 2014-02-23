@@ -36,7 +36,7 @@
             <li><a href="docs" title="Documentation">Documentation</a></li>
             <li><a href="api/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
             <li><a href="//github.com/laravel/laravel" title="Github">Github</a></li>
-            <li><a href="//forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+            <li><a href="http://laravel.io/forum" title="Laravel Forums">Forums</a></li>
             <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
         </ul>
     </div>
@@ -75,7 +75,7 @@
                     <p>Composer is an amazing tool to manage your application's third-party packages. Find packages on Packagist and use them in seconds.</p>
                 </li>
                 <li class="one_quarter">
-                    <h2><i class="icon-group"></i> <a title="Great Community" href="http://forums.laravel.io">Great Community</a></h2>
+                    <h2><i class="icon-group"></i> <a title="Great Community" href="http://laravel.io/forum">Great Community</a></h2>
                     <p>Whether you're a PHP beginner or architecture astronaut, you'll fit right in. Discuss ideas in the IRC chat room, or post questions in the forum.</p>
                 </li>
                 <li class="one_quarter">
@@ -148,7 +148,7 @@
                 <li><a href="docs" title="Documentation">Documentation</a></li>
                 <li><a href="api/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
                 <li><a href="//github.com/laravel/laravel" title="Github">Github</a></li>
-                <li><a href="//forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                <li><a href="http://laravel.io/forum" title="Laravel Forums">Forums</a></li>
                 <li><a href="//twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
             </ul>
         </nav>

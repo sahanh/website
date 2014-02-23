@@ -101,7 +101,7 @@
                     <li class="current-item"><a href="docs" title="Documentation">Documentation</a></li>
                     <li><a href="{{ url('api') }}/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
                     <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
-                    <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                    <li><a href="http://laravel.io/forum" title="Laravel Forums">Forums</a></li>
                     <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
                 </ul>
             </div>
@@ -149,7 +149,7 @@
                         <li class="current-item"><a href="docs" title="Documentation">Documentation</a></li>
                         <li><a href="api/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
                         <li><a href="https://github.com/laravel/laravel" title="Github">Github</a></li>
-                        <li><a href="http://forums.laravel.io/" title="Laravel Forums">Forums</a></li>
+                        <li><a href="http://laravel.io/forum" title="Laravel Forums">Forums</a></li>
                         <li><a href="http://twitter.com/laravelphp" title="Laravel on Twitter">Twitter</a></li>
                     </ul>
                 </nav>
