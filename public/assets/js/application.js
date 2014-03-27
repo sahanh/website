@@ -141,6 +141,12 @@ jQuery(document).ready(function($) {
     });
     */
 
+    // heading links
+    $('#docs-content').find('a[name]').each(function () {
+        var anchor = $('<a href="#' + this.name + '">');
+        $(this).parent().next('h2').wrapInner(anchor);
+    });
+
     // prettyprint
     $('pre').addClass('prettyprint');
 
