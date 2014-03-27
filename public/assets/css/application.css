@@ -514,16 +514,18 @@ Pages
 }
 
 #documentation #docs-content h2 {
-font-size: 32px;
-margin-top: 20px;
-padding-top: 35px;
-border-top: 1px solid #EEE;
-color: #666;
-float: left;
-width: 100%;
+    font-size: 32px;
+    margin-top: 20px;
+    padding-top: 35px;
+    border-top: 1px solid #EEE;
 }
 
-#documentation #docs-content h2:before
+#documentation #docs-content h2 a {
+    width: 100%;
+    color: #666;
+}
+
+#documentation #docs-content h2 a:before
 {
     content: "# ";
     color: #f4645f;
@@ -531,6 +533,13 @@ width: 100%;
     -khtml-opacity: 0.4;
     -moz-opacity: 0.4;
     opacity: 0.4;
+}
+
+#documentation #docs-content h2 a:hover:before {
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
 }
 
 #documentation #docs-content h3
