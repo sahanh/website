@@ -646,6 +646,8 @@ background-clip:padding-box;
 padding: 20px!important;
 white-space: pre;
 overflow: hidden;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .prettyprint .pln {
