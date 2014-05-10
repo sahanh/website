@@ -35,9 +35,19 @@ if ( ! Cookie::has('docs_version'))
 	Cookie::queue('docs_versions', '4.1');
 }
 
+/**
+ * Define Current Docs Version Constant
+ */
 if ( ! defined('DOCS_VERSION'))
 {
-	define('DOCS_VERSION', Cookie::get('docs_version', '4.1'));
+	$version = Cookie::get('docs_version', '4.1');
+
+	if (Input::query('version') and in_array(Input::query('version'), array('4.0', '4.1', '4.2', 'master')))
+	{
+		$version = Input::query('version');
+	}
+
+	define('DOCS_VERSION', $version);
 }
 
 /**
