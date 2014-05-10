@@ -72,14 +72,22 @@
                     <ul class="nolist">
                         @if (DOCS_VERSION == 'master')
                             <li class="current"><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
+                            <li><a href="{{ url('docs/4-2') }}" title="4.2">4.2 (Beta)</a></li>
+                            <li><a href="{{ url('docs/4-1') }}" title="4.1">4.1</a></li>
+                            <li><a href="{{ url('docs/4-0') }}" title="4.0">4.0</a></li>
+                        @elseif (DOCS_VERSION == '4.2')
+                            <li><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
+                            <li class="current"><a href="{{ url('docs/4-2') }}" title="4.2">4.2 (Beta)</a></li>
                             <li><a href="{{ url('docs/4-1') }}" title="4.1">4.1</a></li>
                             <li><a href="{{ url('docs/4-0') }}" title="4.0">4.0</a></li>
                         @elseif (DOCS_VERSION == '4.1')
                             <li><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
+                            <li><a href="{{ url('docs/4-2') }}" title="4.2">4.2 (Beta)</a></li>
                             <li class="current"><a href="{{ url('docs/4-1') }}" title="4.1">4.1</a></li>
                             <li><a href="{{ url('docs/4-0') }}" title="4.0">4.0</a></li>
                         @else
                             <li><a href="{{ url('docs/dev') }}" title="Dev">Dev</a></li>
+                            <li><a href="{{ url('docs/4-2') }}" title="4.2">4.2 (Beta)</a></li>
                             <li><a href="{{ url('docs/4-1') }}" title="4.1">4.1</a></li>
                             <li class="current"><a href="{{ url('docs/4-0') }}" title="4.0">4.0</a></li>
                         @endif
