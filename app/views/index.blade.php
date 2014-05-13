@@ -14,7 +14,7 @@
         <!-- callto action -->
         <div id="callto" class="animated bounceInLeft">
             <a href="docs/quick" class="button large animated shake">Quickstart</a>
-            <a href="http://conference.laravel.com" class="button large animated shake">Laracon 2014</a>
+            <a href="https://forge.laravel.com" class="button large animated shake">Laravel Forge</a>
         </div>
         <!-- /callto action -->
 
@@ -33,6 +33,7 @@
         </div>
         <ul>
             <li class="current-item"><a href="#">Welcome</a></li>
+            <li><a href="https://forge.laravel.com">Forge</a></li>
             <li><a href="docs" title="Documentation">Documentation</a></li>
             <li><a href="api/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
             <li><a href="//github.com/laravel/laravel" title="Github">Github</a></li>
@@ -90,25 +91,6 @@
 </div>
 <!-- /content -->
 
-<!-- sponsors -->
-<section id="sponsors">
-   <article class="boxed">
-	   <ul id="sponsor" class="nolist textcenter aligncenter">
-	       <li class="animated fadeInDown">
-	           <div class="sponsor">
-	               <p>Laravel community sponsor Cartalyst is the leader in premium add-ons and extensions to the Laravel framework. Their arsenal of high quality components will take your application to the next level.</p>
-	           </div>
-	           <div class="sponsor-logo">
-	               <a href="//cartalyst.com" title="Cartalyst" target="_blank">
-	                   <img src="assets/img/sponsors/cartalyst.png" alt="Cartalyst" />
-	               </a>
-	           </div>
-	       </li>
-	   </ul>
-   </article>
-</section>
-<!-- /sponsors -->
-
 <!-- quotes -->
 <section id="quotes">
    <article class="boxed">
@@ -145,6 +127,7 @@
 	        </div>
             <ul>
                 <li class="current-item"><a href="#">Welcome</a></li>
+                <li><a href="https://forge.laravel.com">Forge</a></li>
                 <li><a href="docs" title="Documentation">Documentation</a></li>
                 <li><a href="api/{{ DOCS_VERSION }}" title="Laravel Framework API">API</a></li>
                 <li><a href="//github.com/laravel/laravel" title="Github">Github</a></li>
