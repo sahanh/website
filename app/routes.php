@@ -32,7 +32,7 @@ if (isset($_GET['v']))
  */
 if ( ! Cookie::has('docs_version'))
 {
-	Cookie::queue('docs_versions', '4.1');
+	Cookie::queue('docs_versions', '4.2');
 }
 
 /**
@@ -40,7 +40,7 @@ if ( ! Cookie::has('docs_version'))
  */
 if ( ! defined('DOCS_VERSION'))
 {
-	$version = Cookie::get('docs_version', '4.1');
+	$version = Cookie::get('docs_version', '4.2');
 
 	if (Input::query('version') and in_array(Input::query('version'), array('4.0', '4.1', '4.2', 'master')))
 	{
