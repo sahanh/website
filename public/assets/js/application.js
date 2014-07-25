@@ -153,4 +153,14 @@ jQuery(document).ready(function($) {
 	// uniform
 	$('select, input:checkbox, input:radio, input:file').uniform();
 
+    $('#docs-content a[href*=#]').click(function(e){
+        e.preventDefault();
+        var name = $(this).attr('href').replace('#', '');
+        var aTag = $('a[name="'+ name +'"]');
+        
+        if (aTag.length > 0) {
+            var pos  = aTag.offset().top - 75;
+            $('html,body').scrollTop(pos);
+        }
+    });
 });
